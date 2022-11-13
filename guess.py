@@ -5,7 +5,9 @@ import random
 # Variable for user set to 0; no guesses made
 guessesTaken = 0
 
+# Displays string to user
 print('Hello! What is your name?')
+# User input is placed in 'myName' variable
 myName = input()
 
 number = random.randint(1, 20)

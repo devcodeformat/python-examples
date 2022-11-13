@@ -1,6 +1,8 @@
 # This is a Guess the Number game.
+# Importing 'random' module to use 'randint()' function
 import random
 
+# Variable for user set to 0; no guesses made
 guessesTaken = 0
 
 print('Hello! What is your name?')

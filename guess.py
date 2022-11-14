@@ -10,9 +10,14 @@ print('Hello! What is your name?')
 # User input is placed in 'myName' variable
 myName = input()
 
+# 'random' module's 'randint()' function assigned to 'number'
+# 'number' variable is what the user is attempting to guess
 number = random.randint(1, 20)
+
+# Displays user's name (or what was inputted) with predefined string
 print('Well, ' + myName + ', I am thinking of a number between 1 and 20.')
 
+# Starting at [ for 0 (guessesTaken) in range(6): ] 
 for guessesTaken in range(6):
     print('Take a guess.')
     guess = input()
